@@ -1,0 +1,125 @@
+{
+  "category": [
+    {
+      "categoryName": "Milks and Dairies",
+      "categoryPhoto": "https://etimg.etb2bimg.com/photo/96331122.cms",
+      "date": "2024-06-23",
+      "id": "afa7"
+    },
+    {
+      "id": "42a8",
+      "categoryName": "Fresh Fruits",
+      "categoryPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxIl62F-V1lTjm_mh7JqQPOIJ15exZmDxVg&s",
+      "date": "2024-06-23"
+    }
+  ],
+  "subCategory": [
+    {
+      "id": "c0ba",
+      "category": "Milks and Dairies",
+      "subCategoryName": "Cheese",
+      "subCategoryPhoto": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthiest-cheese-1296x728-swiss.jpg?w=1155&h=1528",
+      "date": "2024-06-23"
+    },
+    {
+      "category": "Milks and Dairies",
+      "subCategoryName": "Ice Cream",
+      "subCategoryPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzYD3fzBdT3VpyUzJp0gBJMdH3-pco5VZ7Qg&s",
+      "date": "2024-06-23",
+      "id": "4854"
+    },
+    {
+      "id": "9559",
+      "category": "Milks and Dairies",
+      "subCategoryName": "Cake",
+      "subCategoryPhoto": "https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "date": "2024-06-23"
+    },
+    {
+      "id": "19b8",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Citrus Fruits",
+      "subCategoryPhoto": "https://www.thespruceeats.com/thmb/twq1ZnPL7D196YUpSqtKF_n-BEw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/citrus_hero1-34ada1a25b254f43864ebc62864195cd.jpg",
+      "date": "2024-06-24"
+    },
+    {
+      "id": "8b32",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Berries",
+      "subCategoryPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pfbcqHUpZt9IyQdIaMRvt3fxgQv6Cf-BFQ&s",
+      "date": "2024-06-25"
+    },
+    {
+      "id": "7f2e",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Pome Fruits",
+      "subCategoryPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNaSKVEN0o8KQVxF8L_jAswV7n97aaWDgruTnbf9EytFwkYvtwZa2vPsAtTp8U8GqZNbc&usqp=CAU",
+      "date": "2024-06-24"
+    },
+    {
+      "id": "50f7",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Tropical Fruits",
+      "subCategoryPhoto": "https://www.mashed.com/img/gallery/unusual-tropical-fruits-you-need-to-try-before-you-die/intro-1581697323.jpg",
+      "date": "2024-06-27"
+    },
+    {
+      "id": "75ef",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Melons",
+      "subCategoryPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY23I7AU9UnHh-o5fbBRDxVd4FPMM5TLpOZg&s",
+      "date": "2024-06-26"
+    }
+  ],
+  "products": [
+    {
+      "category": "Milks and Dairies",
+      "subCategoryName": "Cheese",
+      "productName": "Cheddar Cheese",
+      "productDescription": "Firm, cow's milk cheese; ranges from mild to sharp flavor.",
+      "productPrice": "8.99",
+      "productNewPrice": "7.89",
+      "productPhoto": "https://st.depositphotos.com/1692343/4043/i/450/depositphotos_40435305-stock-photo-organic-sharp-cheddar-cheese.jpg",
+      "date": "2024-06-27",
+      "id": "9b07"
+    },
+    {
+      "id": "f8af",
+      "category": "Milks and Dairies",
+      "subCategoryName": "Cheese",
+      "productName": "Brie Cheese",
+      "productDescription": "Soft, creamy cow's milk cheese with an edible white rind.",
+      "productPrice": "12.99",
+      "productNewPrice": "11.45",
+      "productPhoto": "https://www.grocery.coop/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/wp-content/uploads/2011/06/Brie_11.jpg?itok=e-EoHAeB",
+      "date": "2024-06-28"
+    },
+    {
+      "id": "3113",
+      "category": "Fresh Fruits",
+      "subCategoryName": "cheese",
+      "productName": "Mozzarella Cheese",
+      "productDescription": "Soft, fresh cheese with a mild flavor and stretchy texture.",
+      "productPrice": "6.99",
+      "productNewPrice": "6.77",
+      "productPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB5cqdaKvFAUhJeLGa8m-4A1axsq3zEiojJg&s",
+      "date": "2024-06-28"
+    }
+  ],
+  "blogs": [
+    {
+      "blogsName": "Soups and Stews",
+      "blogsDescription": "Summer Quinoa Salad Jars with Lemon Dill",
+      "blogsPhoto": "https://t3.ftcdn.net/jpg/00/27/57/96/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg",
+      "date": "2024-07-04",
+      "id": "21c2"
+    },
+    {
+      "id": "eca2",
+      "blogsName": "Side Dish",
+      "blogsDescription": "Creamy Garlic Sun-Dried Tomato Pasta",
+      "blogsPhoto": "https://www.halfbakedharvest.com/wp-content/uploads/2023/03/Creamy-Sun-Dried-Tomato-Pasta-with-Melted-Burrata-1.jpg",
+      "date": "2024-07-02"
+    }
+  ]
+}

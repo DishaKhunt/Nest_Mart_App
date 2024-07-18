@@ -26,7 +26,7 @@ export default function ManageCategory() {
 
                     <div className="flex flex-wrap justify-center gap-5 mx-auto">
                         {data && data.map((item)=> (
-                            <div  key={item.id}  className="w-full max-w-sm bg-white border border-green-200 rounded-lg shadow-lg ">
+                            <div  key={item.id}  className="w-full bg-white border border-green-200 rounded-lg shadow-lg md:w-80 ">
                             <a href="#">
                                 <img className="w-full h-64 rounded-t-lg img-fluid" src={item.categoryPhoto} alt="product image" />
                             </a>

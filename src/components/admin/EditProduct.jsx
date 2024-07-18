@@ -21,6 +21,7 @@ export default function EditProduct() {
     const productDescription = useRef("");
     const productNewPrice = useRef("");
     const productPrice = useRef("");
+    const shopkeeper = useRef("");
     const productPhoto = useRef("");
     const date = useRef("");
     const {id}=useParams();
@@ -37,6 +38,7 @@ export default function EditProduct() {
         productDescription.current.value = response.data.productDescription;
         productPrice.current.value = response.data.productPrice;
         productNewPrice.current.value = response.data.productNewPrice;
+        shopkeeper.current.value = response.data.shopkeeper;
         productPhoto.current.value = response.data.productPhoto;
         date.current.value=response.data.date;   
         })
@@ -55,6 +57,7 @@ export default function EditProduct() {
                 productDescription:productDescription.current.value,
                 productPrice:productPrice.current.value,
                 productNewPrice:productNewPrice.current.value,
+                shopkeeper:shopkeeper.current.value,
                 productPhoto:productPhoto.current.value,
                 date:date.current.value
             }
@@ -91,16 +94,20 @@ export default function EditProduct() {
                                     <GoMultiSelect />
                                 </span>
                                <select name="" id="" ref={category} className='rounded-none rounded-e-lg bg-green-50 border border-gray-300 text-gray-900 focus:ring-green-500 focus:border-green-500 block flex-1 min-w-0 w-full focus:outline-none text-base p-2.5 '>
-                                    <option value="">Select the Category</option>
+                               <option value="">Select the Category</option>
                                     <option value="Milks and Dairies">Milks and Dairies</option>
                                     <option value="Fresh Fruits">Fresh Fruits</option>
-                                    <option value="Clothing & beauty">Clothing & beauty</option>
-                                    <option value="Pet Foods & Toy">Pet Foods & Toy</option>
-                                    <option value="Baking material">Baking material</option>
-                                    <option value="Fresh Seafood">Fresh Seafood</option>
                                     <option value="Vegetables">Vegetables</option>
-                                    <option value="Wines & Drinks">Wines & Drinks</option>
-                                    <option value="Bread and Juice">Bread and Juice</option>
+                                    <option value="Bakery">Bakery</option>
+                                    <option value="Pantry Staples">Pantry Staples</option>
+                                    <option value="Canned and Packaged Goods">Canned and Packaged Goods</option>
+                                    <option value="Snacks">Snacks</option>
+                                    <option value="Beverages">Beverages</option>
+                                    <option value="Baking Supplies">Baking Supplies</option>
+                                    <option value="Household and Cleaning">Household and Cleaning</option>
+                                    <option value="Personal Care">Personal Care</option>
+                                    <option value="Baby and Infant">Baby and Infant</option>
+                                    <option value="Pet Supplies">Pet Supplies</option>
                                </select>
                             </div>
                         </div>
@@ -150,6 +157,16 @@ export default function EditProduct() {
                                 <RiPriceTagFill />
                                 </span>
                                 <input type="text" ref={productNewPrice} className="rounded-none rounded-e-lg bg-green-50 border border-gray-300 text-gray-900 focus:ring-green-500 focus:border-green-500 block flex-1 min-w-0 w-full focus:outline-none text-base p-2.5  " placeholder="Enter the Product Description"/>
+                            </div>
+                        </div>
+
+                        <div className='mt-5'>
+                            <label className="block mb-2 text-base font-medium text-gray-900 ">Shopkeeper :</label>
+                            <div className="flex focus:border-green-600 border-5">
+                                <span className="inline-flex items-center px-3 text-xl text-gray-900 border bg-green-50 rounded-s-lg focus:border-green-500">
+                                    <AiOutlineProduct />
+                                </span>
+                                <input type="text" ref={shopkeeper} className="rounded-none rounded-e-lg bg-green-50 border border-gray-300 text-gray-900 focus:ring-green-500 focus:border-green-500 block flex-1 min-w-0 w-full focus:outline-none text-base p-2.5  " placeholder="Enter the Shopkeeper name"/>
                             </div>
                         </div>
 

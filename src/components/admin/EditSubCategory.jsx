@@ -78,13 +78,17 @@ useEffect(()=>{
                                     <option value="">Select the Category</option>
                                     <option value="Milks and Dairies">Milks and Dairies</option>
                                     <option value="Fresh Fruits">Fresh Fruits</option>
-                                    <option value="Clothing & beauty">Clothing & beauty</option>
-                                    <option value="Pet Foods & Toy">Pet Foods & Toy</option>
-                                    <option value="Baking material">Baking material</option>
-                                    <option value="Fresh Seafood">Fresh Seafood</option>
                                     <option value="Vegetables">Vegetables</option>
-                                    <option value="Wines & Drinks">Wines & Drinks</option>
-                                    <option value="Bread and Juice">Bread and Juice</option>
+                                    <option value="Bakery">Bakery</option>
+                                    <option value="Pantry Staples">Pantry Staples</option>
+                                    <option value="Canned and Packaged Goods">Canned and Packaged Goods</option>
+                                    <option value="Snacks">Snacks</option>
+                                    <option value="Beverages">Beverages</option>
+                                    <option value="Baking Supplies">Baking Supplies</option>
+                                    <option value="Household and Cleaning">Household and Cleaning</option>
+                                    <option value="Personal Care">Personal Care</option>
+                                    <option value="Baby and Infant">Baby and Infant</option>
+                                    <option value="Pet Supplies">Pet Supplies</option>
                                </select>
                             </div>
                         </div>

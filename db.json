@@ -11,6 +11,72 @@
       "categoryName": "Fresh Fruits",
       "categoryPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxIl62F-V1lTjm_mh7JqQPOIJ15exZmDxVg&s",
       "date": "2024-06-23"
+    },
+    {
+      "id": "6d81",
+      "categoryName": "Vegetables",
+      "categoryPhoto": "https://media.istockphoto.com/id/1208790364/photo/healthy-fresh-rainbow-colored-fruits-and-vegetables-in-a-row.jpg?s=612x612&w=0&k=20&c=PiHXSePkFnNJ5PKvJcstycqx-V9mujWTDhBsYqKDtCA=",
+      "date": "2024-07-02"
+    },
+    {
+      "categoryName": "Bakery",
+      "categoryPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt0EjxczdpUCNFNPRzsFa25CsTR_zTC3TNyvRG9AFg2WLmdjVSsKsYZhgFCyP2jrIllqE&usqp=CAU",
+      "date": "2024-07-02",
+      "id": "3581"
+    },
+    {
+      "id": "d3b1",
+      "categoryName": "Pantry Staples",
+      "categoryPhoto": "https://www.eatingwell.com/thmb/YX07CpdUyjoygQdcBRCRVaLw79I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-stock-your-pantry-092a041f345148a78c37eaa4ad434106.jpg",
+      "date": "2024-07-02"
+    },
+    {
+      "id": "510e",
+      "categoryName": "Canned and Packaged Goods",
+      "categoryPhoto": "https://www.alcircle.com/api/media/1706805391.55157_Canned_food_market_in_Saudi_Arabia_to_grow_at_a_3.55_per_cent_CAGR_till_2028_0_0.jpg",
+      "date": "2024-07-04"
+    },
+    {
+      "id": "e346",
+      "categoryName": "Snacks",
+      "categoryPhoto": "https://media.istockphoto.com/id/1149329427/photo/group-of-sweet-and-salty-snacks-perfect-for-binge-watching.jpg?s=612x612&w=0&k=20&c=uXfDKCuCsnQklKTLHNvz1ReN6vUrSYmvcsJvIsGJaRY=",
+      "date": "2024-07-03"
+    },
+    {
+      "id": "5be4",
+      "categoryName": "Beverages",
+      "categoryPhoto": "https://st2.depositphotos.com/4278641/11932/i/450/depositphotos_119329178-stock-photo-detox-water-in-bottles.jpg",
+      "date": "2024-07-03"
+    },
+    {
+      "id": "3bf6",
+      "categoryName": "Baking Supplies",
+      "categoryPhoto": "https://cdnimg.webstaurantstore.com/uploads/seo_category/2022/1/baking-tools-essentials.jpg",
+      "date": "2024-07-10"
+    },
+    {
+      "id": "d0f7",
+      "categoryName": "Household and Cleaning",
+      "categoryPhoto": "https://media.istockphoto.com/id/1154590421/photo/house-cleaning-product-on-wood-table-blue-equipment-concept.jpg?s=612x612&w=0&k=20&c=81gBQ_t72fOdt5nXJCjAJxo2_2xNYz3vNP4WFROeI3s=",
+      "date": "2024-07-03"
+    },
+    {
+      "id": "48b8",
+      "categoryName": "Personal Care",
+      "categoryPhoto": "https://st3.depositphotos.com/1177973/12669/i/450/depositphotos_126693854-stock-photo-set-of-body-care-products.jpg",
+      "date": "2024-07-10"
+    },
+    {
+      "id": "7d82",
+      "categoryName": "Baby and Infant",
+      "categoryPhoto": "https://t4.ftcdn.net/jpg/02/64/65/99/360_F_264659979_rg2vbYP9ZJu2TmM8QOEuZk3B5EgNraaZ.jpg",
+      "date": "2024-07-10"
+    },
+    {
+      "id": "2c2e",
+      "categoryName": "Pet Supplies",
+      "categoryPhoto": "https://img.freepik.com/free-photo/pet-accessories-still-life-concept-with-pet-dry-food_23-2148949564.jpg",
+      "date": "2024-07-10"
     }
   ],
   "subCategory": [
@@ -73,37 +139,148 @@
   ],
   "products": [
     {
+      "id": "9b07",
       "category": "Milks and Dairies",
       "subCategoryName": "Cheese",
       "productName": "Cheddar Cheese",
       "productDescription": "Firm, cow's milk cheese; ranges from mild to sharp flavor.",
       "productPrice": "8.99",
       "productNewPrice": "7.89",
+      "shopkeeper": "Cheese Delights",
       "productPhoto": "https://st.depositphotos.com/1692343/4043/i/450/depositphotos_40435305-stock-photo-organic-sharp-cheddar-cheese.jpg",
-      "date": "2024-06-27",
-      "id": "9b07"
+      "date": "2024-06-27"
     },
     {
-      "id": "f8af",
       "category": "Milks and Dairies",
       "subCategoryName": "Cheese",
       "productName": "Brie Cheese",
       "productDescription": "Soft, creamy cow's milk cheese with an edible white rind.",
       "productPrice": "12.99",
       "productNewPrice": "11.45",
+      "shopkeeper": "Gourmet Cheese Shop",
       "productPhoto": "https://www.grocery.coop/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/wp-content/uploads/2011/06/Brie_11.jpg?itok=e-EoHAeB",
-      "date": "2024-06-28"
+      "date": "2024-06-28",
+      "id": "f8af"
     },
     {
-      "id": "3113",
-      "category": "Fresh Fruits",
-      "subCategoryName": "cheese",
+      "category": "Milks and Dairies",
+      "subCategoryName": "Cheese",
       "productName": "Mozzarella Cheese",
       "productDescription": "Soft, fresh cheese with a mild flavor and stretchy texture.",
       "productPrice": "6.99",
       "productNewPrice": "6.77",
+      "shopkeeper": "Fresh Dairy",
       "productPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB5cqdaKvFAUhJeLGa8m-4A1axsq3zEiojJg&s",
-      "date": "2024-06-28"
+      "date": "2024-06-28",
+      "id": "3113"
+    },
+    {
+      "category": "Fresh Fruits",
+      "subCategoryName": "Pome Fruits",
+      "productName": "Granny Smith Apple",
+      "productDescription": "A tart green apple with a crisp texture.",
+      "productPrice": "1.99",
+      "productNewPrice": "1.75",
+      "shopkeeper": "Orchard Fresh",
+      "productPhoto": "https://media.istockphoto.com/id/157641457/photo/close-up-of-granny-smith-apples-rippening-on-tree.jpg?s=612x612&w=0&k=20&c=DtNOG1JGyjalMvH2Bl5kfJfQdKuDMz5MjKok-sc4Jmg=",
+      "date": "2024-06-28",
+      "id": "p1"
+    },
+    {
+      "category": "Fresh Fruits",
+      "subCategoryName": "Pome Fruits",
+      "productName": "Red Delicious Apple",
+      "productDescription": "A sweet red apple with a soft texture.",
+      "productPrice": "2.29",
+      "productNewPrice": "2.05",
+      "shopkeeper": "Orchard Fresh",
+      "productPhoto": "https://images.seattletimes.com/wp-content/uploads/2022/09/111955.jpg?d=780x520",
+      "date": "2024-06-28",
+      "id": "p2"
+    },
+    {
+      "category": "Fresh Fruits",
+      "subCategoryName": "Pome Fruits",
+      "productName": "Bartlett Pear",
+      "productDescription": "A juicy pear with a smooth texture and sweet flavor.",
+      "productPrice": "1.89",
+      "productNewPrice": "1.65",
+      "shopkeeper": "Pear Paradise",
+      "productPhoto": "https://www.brighterblooms.com/cdn/shop/products/Bartlett_Pear_3_BB.jpg?v=1629233138&width=1000",
+      "date": "2024-06-28",
+      "id": "p3"
+    },
+    {
+      "category": "Fresh Fruits",
+      "subCategoryName": "Pome Fruits",
+      "productName": "Bosc Pear",
+      "productDescription": "A firm pear with a crunchy texture and spicy-sweet flavor.",
+      "productPrice": "2.19",
+      "productNewPrice": "1.95",
+      "shopkeeper": "Pear Paradise",
+      "productPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR87sHt_YCqmHgEeXql0X5bMofUidT_XhlBQuUYjM2e4_7DbjyIN2ouAX_lhWUVcH5QTWk&usqp=CAU",
+      "date": "2024-06-28",
+      "id": "p4"
+    },
+    {
+      "id": "bb01",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Berries",
+      "productName": "Blueberries",
+      "productDescription": "Small, round, and blue-purple berries with a sweet and tangy flavor, rich in antioxidants and vitamins.",
+      "productPrice": "5.99",
+      "productNewPrice": "4.99",
+      "shopkeeper": "Berry Fresh Market",
+      "productPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuYalQoiCrpruhsFVcihDqWM75SKfMrdw6CUl-GrWQ0C1sZGJ7GaW03eM2cbVSkyD28aI&usqp=CAU",
+      "date": "2024-07-12"
+    },
+    {
+      "id": "sb01",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Berries",
+      "productName": "Strawberries",
+      "productDescription": "Bright red berries with a juicy texture and sweet taste, excellent source of vitamin C and antioxidants.",
+      "productPrice": "4.99",
+      "productNewPrice": "3.99",
+      "shopkeeper": "Sunny Farms Produce",
+      "productPhoto": "https://fittify.in/cdn/shop/articles/1_1aba4a24-2162-4e21-8c51-f4eb2c02aa6f.jpg?v=1673938218",
+      "date": "2024-07-12"
+    },
+    {
+      "id": "rb01",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Berries",
+      "productName": "Raspberries",
+      "productDescription": "Delicate, red berries with a tart-sweet flavor, high in dietary fiber, vitamins C and E, and antioxidants.",
+      "productPrice": "6.49",
+      "productNewPrice": "5.49",
+      "shopkeeper": "Nature’s Bounty Market",
+      "productPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbaPdrOKgcd9kvgkbykARxqLyh3Sok4idcig&s",
+      "date": "2024-07-12"
+    },
+    {
+      "id": "bb02",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Berries",
+      "productName": "Blackberries",
+      "productDescription": "Large, dark purple-black berries with a sweet and slightly tart taste, rich in vitamins C and K, and antioxidants.",
+      "productPrice": "5.49",
+      "productNewPrice": "4.49",
+      "shopkeeper": "Harvest Haven",
+      "productPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdxdOHJpMRnMri01DpQa3v7I-vt_PuBKM3OA&s",
+      "date": "2024-07-12"
+    },
+    {
+      "id": "cb01",
+      "category": "Fresh Fruits",
+      "subCategoryName": "Berries",
+      "productName": "Cranberries",
+      "productDescription": "Small, bright red berries with a tart flavor, packed with vitamin C, fiber, and antioxidants.",
+      "productPrice": "3.99",
+      "productNewPrice": "2.99",
+      "shopkeeper": "Fresh Fields Market",
+      "productPhoto": "https://static.starkl.com/files/pic/pic_zbozi/150061.webp",
+      "date": "2024-07-12"
     }
   ],
   "blogs": [

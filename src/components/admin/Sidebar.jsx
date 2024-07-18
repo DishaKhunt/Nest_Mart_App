@@ -15,7 +15,7 @@ export default function Sidebar() {
     const location = useLocation();
 
     const Menus = [
-        { title: "Dashboard", icon: <RiDashboardHorizontalFill />, path: "/dashboard" },
+        { title: "Dashboard", icon: <RiDashboardHorizontalFill />, path: "/admin-login/dashboard" },
         {
             title: "Category",
             icon: <BiCategoryAlt />,

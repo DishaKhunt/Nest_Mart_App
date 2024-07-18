@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './index.css'
 import Layout from './Layout'
 import About from './components/coustomer/About'
+import Login from './components/coustomer/Login'
 import AdminLayout from './AdminLayout'
 import AdminLogin from './components/admin/AdminLogin'
 import AddCategory from './components/admin/AddCategory'
@@ -23,6 +24,9 @@ import AddBlogs from './components/admin/AddBlogs'
 import ManageBlogs from './components/admin/ManageBlogs'
 import DeleteBlogs from './components/admin/DeleteBlogs'
 import EditBlogs from './components/admin/EditBlogs'
+import SignUp from './components/coustomer/SignUp'
+import Dashboard from './components/admin/Dashboard'
+import Vendor from './components/coustomer/Vendor'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -31,10 +35,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         {/* nest coustomer panel Route */}
         <Route path='/' element={<Layout/>}/>
         <Route path='/about-us' element={<About/>}/>
+        <Route path='/vendors' element={<Vendor/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/sign-up' element={<SignUp/>}/>
 
         {/* admin oanel Route */}
         <Route path='/admin-login' element={<AdminLogin/>}/>
         <Route path='/admin-login/dashboard' element={<AdminLayout />} />
+
+        {/* dashboard */}
+        {/* <Route path='/admin-login/dashboard' element={<Dashboard />} /> */}
 
         {/* category */}
         <Route path='/admin-login/category/add' element={<AddCategory />} />

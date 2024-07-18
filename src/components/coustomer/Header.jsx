@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <div>
       <nav className="bg-green-50">
-        <div className="flex  items-center justify-between px-2 py-5 md:px-10 mx-auto max-w-screen-2xl">
+        <div className="flex items-center justify-between px-2 py-5 mx-auto md:px-10 max-w-screen-2xl">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={logo} className="h-11 sm:h-11" alt="Logo" />
           </a>
@@ -37,7 +37,7 @@ export default function Header() {
         </svg>
         <span class="sr-only">Search icon</span>
       </div>
-      <input type="search" className="p-2 ps-10 border border-green-500 rounded w-96 focus:outline-0" placeholder="Search Here" />
+      <input type="search" className="p-2 border border-green-500 rounded ps-10 w-96 focus:outline-0" placeholder="Search Here" />
     </div>
            
           </form>
@@ -51,19 +51,19 @@ export default function Header() {
 
                     </i>
                  
-                    <span className="hidden sm:block pt-2 text-sm">Wishlist</span>
+                    <span className="hidden pt-2 text-sm sm:block">Wishlist</span>
                 </a>
-                <a href="#" className="text-black gap-1 flex hover:text-green-500">
-                    <i className=" relative text-2xl bi bi-cart3">
+                <a href="#" className="flex gap-1 text-black hover:text-green-500">
+                    <i className="relative text-2xl bi bi-cart3">
                         <div class="absolute  block w-4 h-4 bg-green-500 border-2 border-white rounded-full -top-0.5 start-3"></div>
 
                         <div class="absolute animate-ping block w-4 h-4 bg-green-500 border-2 border-white rounded-full -top-0.5 start-2.5 "></div>
                     </i>
-                    <span className='hidden sm:block text-sm pt-2'>Cart</span>
+                    <span className='hidden pt-2 text-sm sm:block'>Cart</span>
                 </a>
-                <a href="#" className="text-black gap-1 flex hover:text-green-500">
+                <a href="/login" className="flex gap-1 text-black hover:text-green-500">
                     <i className="text-2xl bi bi-person"></i>
-                    <span className='hidden text-sm sm:block pt-2'>Account</span>
+                    <span className='hidden pt-2 text-sm sm:block'>Account</span>
                 </a>
 
                 <button onClick={() => setIsOpen(!isOpen)} className="block md:hidden">
@@ -78,7 +78,7 @@ export default function Header() {
 
       <nav className={`shadow ${isOpen ? 'block' : 'hidden'} md:block`}>
         <div className="px-10 py-3 mx-auto max-w-screen-2xl">
-          <div className="flex flex-col md:flex-row items-center justify-between">
+          <div className="flex flex-col items-center justify-between md:flex-row">
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <MenuButton className="inline-flex justify-center gap-x-1.5 rounded-md bg-green-500 px-3 py-3 text-base font-semibold text-white shadow-sm ring-1 ring-inset ring-white-300 hover:bg-green-400">
@@ -97,7 +97,7 @@ export default function Header() {
                 leaveTo="transform opacity-0 scale-95"
               >
                 <MenuItems className="absolute left-0 z-10 mt-2 w-[250px] md:w-[400px] text-sm origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none border-green-300 border">
-                  <div className="flex  flex-col md:gap-4  mx-auto md:flex-row p-5">
+                  <div className="flex flex-col p-5 mx-auto md:gap-4 md:flex-row">
                     <ul className="">
                       <li className="flex items-center gap-3 p-2 font-medium border rounded hover:shadow-lg hover:text-green-500 hover:border-green-500">
                         <img src={category1} alt="cate-1" className="h-8" />
@@ -148,7 +148,7 @@ export default function Header() {
               </Transition>
             </Menu>
 
-            <ul className="flex flex-col md:flex-row mt-4 md:mt-0 space-y-4 md:space-y-0 space-x-0 md:space-x-8 text-base font-medium rtl:space-x-reverse">
+            <ul className="flex flex-col mt-4 space-x-0 space-y-4 text-base font-medium md:flex-row md:mt-0 md:space-y-0 md:space-x-8 rtl:space-x-reverse">
               <li>
                 <a href="#" className="text-gray-900 hover:text-green-500"><i className="text-green-500 bi bi-fire"></i> Deals</a>
               </li>
@@ -162,7 +162,7 @@ export default function Header() {
                 <a href="#" className="text-gray-900 hover:text-green-500">Shop</a>
               </li>
               <li>
-                <a href="#" className="text-gray-900 hover:text-green-500">Vendors</a>
+                <a href="/vendors" className="text-gray-900 hover:text-green-500">Vendors</a>
               </li>
               <li>
                 <a href="#" className="text-gray-900 hover:text-green-500">Blogs</a>
@@ -174,7 +174,7 @@ export default function Header() {
 
             <div className="flex flex-col mt-4 md:mt-0">
               <a href="#" className="text-xl font-bold text-green-500">
-                <i className="bi bi-headphones text-black text-normal"></i> 1900-8888
+                <i className="text-black bi bi-headphones text-normal"></i> 1900-8888
               </a>
               <span className='text-sm'>24/7 Support Center</span>
             </div>

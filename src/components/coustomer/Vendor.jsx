@@ -31,6 +31,8 @@ export default function Vendor() {
             .catch(error => console.error('Error fetching product data:', error));
     }, []);
 
+     
+
     const filteredProducts = products.filter(product => {
         return (category ? product.category === category : true) &&
                (subCategory ? product.subCategoryName === subCategory : true);
